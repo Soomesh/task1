@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .journey-board {
+    width: 300px;
+    transition: width 0.3s ease;
+    border: 1px solid #ccc;
+  }
+  
+  .journey-board.expanded {
+    width: 800px;
+  }
+  
+  .journey-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #0029ff;
+    color: white;
+  }
+  
+  .assets-container {
+    padding: 10px;
+  }
+  
+  .asset-card {
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    padding: 10px;
+  }
+  
+  .asset-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .asset-body img,
+  .asset-body iframe {
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .asset-description {
+    display: none;
+    margin-top: 8px;
+  }
+  
+  .asset-description.show {
+    display: block;
+  }
